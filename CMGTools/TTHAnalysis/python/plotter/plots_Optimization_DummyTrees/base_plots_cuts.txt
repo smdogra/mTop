@@ -1,0 +1,15 @@
+1 hard lep : nLep == 1 && Lep_pt > 25
+Selected : Selected == 1
+No veto lep : nVeto == 0
+Trigger : !isData || (HLT_EleOR || HLT_MuOR || HLT_MetOR)
+Trigger XOR : !isData || ( (PD_SingleEle && HLT_EleOR) || (PD_SingleMu && (HLT_MuOR) && !(HLT_EleOR) ) || (PD_MET && (HLT_MetOR) && !(HLT_EleOR) && !(HLT_MuOR) )  )
+Filters : !isData || METfilters == 1
+Iso veto : !iso_Veto
+MET/met_caloPt <= 5 : MET/met_caloPt <= 5
+Mu jet filter : RA2_muJetFilter == 1
+FastSim jet veto : Flag_fastSimCorridorJetCleaning
+nJet >= 5 : nJets30Clean >= 5
+Jet2_pt > 80 : Jet2_pt > 80
+triggHT : HT > 500
+triggLT : LT > 250
+nbjets >= 1 : nBJet >= 1
