@@ -1,1 +1,0 @@
-../../TTHAnalysis/macros/lxbatch_runner.sh

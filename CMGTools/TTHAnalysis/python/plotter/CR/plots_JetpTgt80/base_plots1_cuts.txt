@@ -1,7 +1,0 @@
-1 hard lep : nLep ==1 && Lep_pt > 25
-Selected : Selected == 1
-No veto lep : nVeto == 0
-Iso veto : !iso_Veto
-nJet >= 1 : nJets30Clean >= 1
-Jet1_pt : Jet1_pt > 80
-nbjets == 1 : nBJet == 1

@@ -1,2 +1,0 @@
-DY+jets     150.31 +/-      1.45 (stat) +/-     75.15 (syst)
-BACKGROUND    150.31 +/-      1.45 (stat)

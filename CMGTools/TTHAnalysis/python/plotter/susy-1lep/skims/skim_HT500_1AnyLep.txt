@@ -1,3 +1,0 @@
-# use cmg intern HT variable: htJet30j
-HT500: htJet30j > 500
-1AnyLep: nLepGood+nLepOther > 0
