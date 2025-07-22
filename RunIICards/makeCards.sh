@@ -19,7 +19,7 @@ do
     cp $CARDDIR/Vector_MonoTop_NLO_madgraph_reweight_card.dat $DIR2/${CARDNAME2}_reweight_card.dat
     cp $CARDDIR/Vector_MonoTop_NLO_madgraph_madspin_card.dat  $DIR2/${CARDNAME2}_madspin_card.dat
     cp $CARDDIR/Vector_MonoTop_NLO_madgraph_extramodels.dat   $DIR2/${CARDNAME2}_extramodels.dat
-    sed -e "s/MassPhi/$MassPhi/" -e "s/MassChi/$MassChi/"  $CARDDIR/Vector_MonoTop_NLO_customizecards.dat > $DIR2/${CARDNAME2}_customizecards.dat
+    sed -e "s/MassPhi/$MassPhi/" -e "s/MassChi/$MassChi/"  $CARDDIR/Vector_MonoTop_NLO_madgraph_customizecards.dat > $DIR2/${CARDNAME2}_customizecards.dat
     sed "s/_NAME_/$CARDNAME2/" $CARDDIR/Vector_MonoTop_NLO_madgraph_proc_card.dat  > $DIR2/${CARDNAME2}_proc_card.dat
     
 done < massgrid.txt
